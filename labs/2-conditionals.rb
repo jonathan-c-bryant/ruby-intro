@@ -8,6 +8,19 @@
 # numbers, one on each line, simulating the roll of two
 # dice. Set two variables, with names that make sense,
 # then write them out to the screen.
+
+die1 = rand(1..6)
+die2 = rand(1..6)
+total = die1 + die2
+
+puts total
+
+if total == 7 || total == 11
+    puts "YOU WIN!"
+else
+    puts "THE POINT IS #{die1 + die2}"
+end
+
 # If the numbers add up to 7 or 11, write a message that reads
 # "YOU WIN!", if they add up to 2, 3, or 12, write a message
 # that reads "YOU LOSE!", otherwise, write a message that
