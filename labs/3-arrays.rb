@@ -11,6 +11,19 @@
 # sort the result (alphabetically), and write it to the screen.
 # If the two lists contain the same item, only show it once!
 
+my_shopping_list = ["milk", "eggs", "bacon"]
+his_shopping_list = ["beer","cookies","apples"]
+
+combined_list = his_shopping_list + my_shopping_list
+combined_list_no_dupes = combined_list.uniq
+
+combined_list_no_dupes = combined_list_no_dupes.sort
+
+puts combined_list_no_dupes
+
+
+
+
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html

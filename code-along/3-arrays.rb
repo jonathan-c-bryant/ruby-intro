@@ -28,7 +28,7 @@ puts favorite_foods.inspect
 
 
 # Size of array
-puts favorite_foods.size
+puts favorite_foods.size 
 
 
 # There are lots of fun things you can do with arrays:
